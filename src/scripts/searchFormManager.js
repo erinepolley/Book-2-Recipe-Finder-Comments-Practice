@@ -1,3 +1,4 @@
+//This function is making the search form in HTML. 
 const buildAndAppendSearchForm = () => {
   const searchForm = `
   <section class="search-form">
@@ -8,7 +9,7 @@ const buildAndAppendSearchForm = () => {
   <section class="search-results"></section>
   `
   // console.log(searchForm)
-
+//This section is taking the search form and rendering it to the DOM in a section with the id of container. . 
   const containerDiv = document.querySelector("#container")
   containerDiv.innerHTML = searchForm
 }
